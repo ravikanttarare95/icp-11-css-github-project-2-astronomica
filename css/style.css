@@ -51,6 +51,9 @@
   font-weight: bold;
 }
 
+
+
+
 #menu {
   font-size: 30px;
 }
@@ -62,7 +65,7 @@
 }
 
 @media (min-width: 769px) {
-  #menu {
+  .menu-container {
     display: none;
   }
 }
