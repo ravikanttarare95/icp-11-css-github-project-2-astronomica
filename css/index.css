@@ -25,3 +25,30 @@
   font-size: 2.5rem;
   margin-bottom: 20px;
 }
+
+.mars-container {
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 50px;
+}
+
+.mars-video-container {
+  width: 100%;
+}
+
+.mars-video-container iframe {
+  width: 100%;
+  /* height: auto; */
+  aspect-ratio: 16/9;
+}
+
+.mars-content {
+  width: 700px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 30px;
+  align-items: start;
+}
