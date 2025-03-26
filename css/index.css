@@ -1,0 +1,27 @@
+.home-img-container {
+  overflow: hidden;
+}
+
+.home-img {
+  width: 100%;
+  position: relative;
+}
+
+.home-img:hover {
+  transition: 10s;
+  transform: scale(1.5);
+}
+
+.home-description {
+  position: absolute;
+  top: 150px;
+  right: 100px;
+  color: #fff;
+  font-size: 1.5rem;
+  width: 45%;
+}
+
+.home-description h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
