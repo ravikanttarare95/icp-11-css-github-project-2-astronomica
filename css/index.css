@@ -27,15 +27,17 @@
 }
 
 .mars-container {
+  background-color: #110515;
   padding: 20px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: center;
   gap: 50px;
 }
 
 .mars-video-container {
-  width: 100%;
+  width: 60%;
 }
 
 .mars-video-container iframe {
@@ -45,10 +47,29 @@
 }
 
 .mars-content {
-  width: 700px;
+  width: 40%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   gap: 30px;
   align-items: start;
+  color: #c1e8ff;
+}
+
+.mars-content h2 {
+  font-size: 2rem;
+}
+
+@media (max-width: 992px) {
+  .mars-container {
+    flex-direction: column-reverse;
+  }
+
+  .mars-video-container {
+    width: 100%;
+  }
+
+  .mars-content {
+    width: 100%;
+  }
 }
