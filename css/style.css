@@ -57,6 +57,13 @@
   font-weight: bold;
 }
 
+.nav-links:hover {
+  color: #b26fcb;
+}
+.nav-link-selected {
+  border-bottom: 4px double #c1e8ff;
+}
+
 #menu {
   font-size: 25px;
 }
