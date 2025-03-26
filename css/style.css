@@ -68,52 +68,65 @@
   font-size: 25px;
 }
 
-.btn{
-  font-size: 20px ;
+.btn {
+  font-size: 20px;
   padding: 5px 20px;
-  border-radius: 30px;
-  margin: 0 10px;
+  border-radius: 10px;
   cursor: pointer;
   position: relative;
-  }
-  .btn:hover{
-      top: 2px;
-      box-shadow: 0 5px 10px 0;
-  }
-  .btn-primary{
-      background-color: #ed5731;
-      color:white;
-      border: none
-  }
-  .btn-primary:hover{
-  background-color: #be3f1f; 
- }
- .btn-secondary{
+}
+
+.btn:hover {
+  top: 2px;
+}
+
+.btn-primary {
+  background-color: #ed5731;
+  color: white;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #be3f1f;
+}
+
+.btn-secondary {
   background-color: #c1e8ff;
   color: #110515;
-  border: 2px solid black;
- }
- .btn-disable{
-  background-color:  #e7eff3; 
-  color: black;
+  border: 2px solid #110515;
+}
+
+.btn-disable {
+  background-color: #e7eff3;
+  color: rgb(126, 124, 124);
   border: none;
- }
- .btn-small{
-  font-size: 16px ;
+}
+
+.btn-small {
+  font-size: 16px;
   padding: 2px 10px;
-  border-radius: 30px;
+  border-radius: 10px;
   margin: 0 5px;
   cursor: pointer;
   position: relative;
- }
-  .btn-large{
-  font-size: 24px ;
+}
+
+.btn-small:hover {
+  top: 2px;
+}
+
+.btn-large {
+  font-size: 24px;
   padding: 10px 30px;
-  border-radius: 30px;
+  border-radius: 10px;
   margin: 0 15px;
   cursor: pointer;
   position: relative;
- }
+}
+
+.btn-large:hover {
+  top: 2px;
+}
 
 .footer-container {
   margin-top: 100px;
