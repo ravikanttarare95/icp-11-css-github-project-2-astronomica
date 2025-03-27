@@ -133,7 +133,7 @@ h2 {
   aspect-ratio: 16/9;
 }
 
-.mars-description {
+.mars-description-container {
   width: 40%;
   display: flex;
   flex-direction: column;
@@ -143,8 +143,13 @@ h2 {
   color: #c1e8ff;
 }
 
-.mars-description h4 {
+.mars-description-container h4 {
   font-size: 1.7rem;
+}
+
+.mars-description {
+  max-height: 200px; /* Why is Height provided: Font size was not proper in Desktop mode in mobile */
+  font-size: 1rem;
 }
 
 .mars-cards-large-container {
@@ -237,7 +242,7 @@ h2 {
     width: 100%;
   }
 
-  .mars-description {
+  .mars-description-container {
     width: 100%;
   }
 }
