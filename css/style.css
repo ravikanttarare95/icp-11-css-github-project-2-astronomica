@@ -105,21 +105,19 @@
 .btn-small {
   font-size: 16px;
   padding: 2px 10px;
-  border-radius: 10px;
-  margin: 0 5px;
+  border-radius: 5px;
   cursor: pointer;
   position: relative;
 }
 
 .btn-small:hover {
-  top: 2px;
+  top: 1px;
 }
 
 .btn-large {
   font-size: 24px;
   padding: 10px 30px;
-  border-radius: 10px;
-  margin: 0 15px;
+  border-radius: 15px;
   cursor: pointer;
   position: relative;
 }

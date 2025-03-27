@@ -1,3 +1,7 @@
+body a {
+  text-decoration: none;
+}
+
 .home-img-container {
   overflow: hidden;
 }
@@ -24,6 +28,67 @@
 .home-description h2 {
   font-size: 2.5rem;
   margin-bottom: 20px;
+}
+
+.featured-section-container {
+  margin: 50px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.featured-section {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  width: 1480px;
+  padding: 20px;
+  background: linear-gradient(
+    180deg,
+    rgba(193, 232, 255, 1) 0%,
+    rgba(178, 111, 203, 1) 100%
+  );
+}
+
+.featured-cards-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 20px;
+}
+
+.featured-card {
+  border: 1px solid #000;
+  border-radius: 8px;
+  overflow: hidden;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 10px;
+  background-color: #fff;
+}
+
+.featured-card:hover {
+  transition: 0.2s;
+  box-shadow: 0 1px 5px 1px #353535;
+}
+
+.featured-card img {
+  width: 100%;
+}
+
+.featured-card-content {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.featured-card-description {
+  padding: 12px;
+}
+
+.featured-card .btn-small {
+  margin-bottom: 5px;
 }
 
 .mars-container {
@@ -149,7 +214,7 @@
 
 .img-container img {
   width: 100%;
-  aspect-ratio: 2/1;
+  aspect-ratio: 1.2/1;
   vertical-align: middle;
 }
 
@@ -168,6 +233,11 @@
 }
 
 @media (max-width: 600px) {
+  .featured-cards-container {
+    grid-template-columns: auto;
+    gap: 20px;
+  }
+
   .red-card-grid {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
@@ -183,6 +253,11 @@
 }
 
 @media (min-width: 601px) and (max-width: 1024px) {
+  .featured-cards-container {
+    grid-template-columns: auto auto;
+    gap: 20px;
+  }
+
   .red-card-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
