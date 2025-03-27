@@ -97,7 +97,7 @@
 }
 
 .btn-disable {
-  background-color:  rgb(194, 183, 183);
+  background-color: rgb(194, 183, 183);
   color: rgb(126, 124, 124);
   border: none;
 }
@@ -129,7 +129,6 @@
 }
 
 .footer-container {
-  margin-top: 100px;
   padding: 10px;
   background-color: #110515;
   color: #c1e8ff;
