@@ -25,6 +25,11 @@ a {
   font-size: 3rem;
 }
 
+.universe-intro{
+  padding: 20px;
+  text-align: justify;
+}
+
 .universe-theory-container {
   position: sticky;
   top: 80px;
