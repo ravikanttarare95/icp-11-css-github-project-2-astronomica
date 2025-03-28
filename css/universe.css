@@ -7,6 +7,7 @@ a {
 }
 
 .universe-img-container {
+  overflow: hidden;
   margin: 0 auto;
   max-width: 1521px;
   position: relative;
@@ -15,6 +16,11 @@ a {
 .universe-img-container img {
   width: 100%;
   height: auto;
+}
+
+.universe-img-container img:hover {
+  transition: 5s;
+  transform: scale(1.1);
 }
 
 .universe-heading {
@@ -27,7 +33,7 @@ a {
 
 .universe-intro {
   padding: 20px;
-  text-align: justify;
+  text-align: center;
 }
 
 .universe-theory-container {
@@ -67,7 +73,7 @@ a {
   }
 
   .universe-theory {
-    width: 290px;
+    width: 260px;
   }
 
   .universe-theory a {
