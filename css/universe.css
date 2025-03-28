@@ -25,6 +25,34 @@ a {
   font-size: 3rem;
 }
 
+.universe-theory-container {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.universe-theory {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 800px;
+}
+
+.universe-theory a {
+  margin: 0 10px;
+}
+
+@media (max-width: 400px) {
+  .universe-theory {
+    width: 240px;
+  }
+
+  .universe-theory a {
+    margin: 0 10px 10px;
+  }
+}
+
 @media (max-width: 600px) {
   .universe-heading {
     font-size: 1.3rem;
