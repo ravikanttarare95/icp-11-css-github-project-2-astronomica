@@ -5,3 +5,40 @@
 a {
   text-decoration: none;
 }
+
+.universe-img-container {
+  margin: 0 auto;
+  max-width: 1521px;
+  position: relative;
+}
+
+.universe-img-container img {
+  width: 100%;
+  height: auto;
+}
+
+.universe-heading {
+  position: absolute;
+  color: #ffffff;
+  top: 25%;
+  left: 2%;
+  font-size: 3rem;
+}
+
+@media (max-width: 600px) {
+  .universe-heading {
+    font-size: 1.3rem;
+  }
+}
+
+@media (min-width: 601px) and (max-width: 768px) {
+  .universe-heading {
+    font-size: 1.8rem;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+  .universe-heading {
+    font-size: 2.3rem;
+  }
+}
