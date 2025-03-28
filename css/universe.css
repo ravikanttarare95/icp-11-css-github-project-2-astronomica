@@ -46,23 +46,21 @@ a {
 .universe-theory a {
   margin: 0 10px;
   font-weight: bold;
-  font-size: large;
+  font-size: 1.15rem;
   text-decoration: underline;
-}
-
-@media (max-width: 400px) {
-  .universe-theory {
-    width: 240px;
-  }
-
-  .universe-theory a {
-    margin: 0 10px 10px;
-  }
 }
 
 @media (max-width: 600px) {
   .universe-heading {
     font-size: 1.3rem;
+  }
+
+  .universe-theory {
+    width: 290px;
+  }
+
+  .universe-theory a {
+    margin: 0 0 10px;
   }
 }
 
