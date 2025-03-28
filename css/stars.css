@@ -7,10 +7,15 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+ 
 }
 
 .stars-intro h1 {
   margin: 10px 0;
+}
+
+.stars-intro div {
+  text-align: justify;
 }
 
 section {
