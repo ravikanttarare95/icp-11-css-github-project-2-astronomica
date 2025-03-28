@@ -26,6 +26,10 @@ a {
 }
 
 .universe-theory-container {
+  position: sticky;
+  top: 80px;
+  z-index: 100;
+  background-color: #c1e8ff;
   display: flex;
   justify-content: center;
   padding: 20px;
@@ -41,6 +45,9 @@ a {
 
 .universe-theory a {
   margin: 0 10px;
+  font-weight: bold;
+  font-size: large;
+  text-decoration: underline;
 }
 
 @media (max-width: 400px) {
