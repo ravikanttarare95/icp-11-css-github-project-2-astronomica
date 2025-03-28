@@ -16,11 +16,11 @@ a {
 .universe-img-container img {
   width: 100%;
   height: auto;
+  transition: transform 3s ease-in-out 0s;
 }
 
 .universe-img-container img:hover {
-  transition: 5s;
-  transform: scale(1.1);
+  transform: scale(1.3);
 }
 
 .universe-heading {

@@ -25,10 +25,10 @@ h2 {
 .home-img {
   width: 100%;
   vertical-align: middle;
+  transition: transform 5s ease-in-out 0s;
 }
 
 .home-img:hover {
-  transition: 10s;
   transform: scale(1.5);
 }
 
@@ -81,10 +81,10 @@ h2 {
   justify-content: space-between;
   gap: 10px;
   background-color: #fff;
+  transition: 0.5s;
 }
 
 .featured-card:hover {
-  transition: 0.2s;
   box-shadow: 0 1px 5px 1px #353535;
 }
 
@@ -181,10 +181,10 @@ h2 {
 .red-card img {
   width: 100%;
   vertical-align: middle;
+  transition: all 0.6s ease-in-out;
 }
 
 .red-card:hover img {
-  transition: all 0.6s ease-in-out;
   transform: scale(1.05);
 }
 
