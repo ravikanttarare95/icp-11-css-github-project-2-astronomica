@@ -4,20 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Space Technology</title>
-    <link rel="stylesheet" href="technology.html">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/technology.css">
 </head>
 <body>
-    <header>
-        <h1>Space Technology</h1>
-        <nav>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Missions</a></li>
-                <li><a href="#">Innovations</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
+    <body>
+        <div class="nav-container">
+            <div class="brand-container">
+                <img class="brand-logo" src="./../images/icons/logo.png" alt="Main-Logo">
+                <h1 class="brand-name">ASTRONOMICA</h1>
+            </div>
+    
+            <div class="nav-links-container">
+                <a class="nav-links" href="./../index.html">Home</a>
+                <a class="nav-links nav-link-selected" href="./universe.html">The Universe</a>
+                <a class="nav-links" href="./missions.html">Missions</a>
+                <a class="nav-links" href="./science.html">Space Science</a>
+                <a class="nav-links" href="./technology.html">Technology</a>
+                <a class="nav-links" href="./about.html">About Us</a>
+                <a class="nav-links" href="./news.html">News & Updates</a>
+            </div>
+    
+            <div class="menu-container">
+                <i id="menu" class="fa-solid fa-bars mx-5" style="color: #c1e8ff; "></i>
+            </div>
+        </div>
+    
 
     <section class="hero">
         <h2>Exploring the Future of Space</h2>
@@ -26,19 +38,19 @@
 
     <section class="content">
         <div class="card" onclick="location.href='satellite.html'">
-            <img src="image/satellite.jpg" alt="Satellite Image">
+            <img src="../images/photos/satellite.jpg" alt="Satellite Image">
             <h3>Satellites</h3>
             <p>How modern satellites revolutionize communication and space research.</p>
         </div>
 
         <div class="card" onclick="location.href='spacecraft.html'">
-            <img src="image/space-craft.jpg" alt="Spacecraft Image">
+            <img src="../images/photos/space-craft.jpg" alt="Spacecraft Image">
             <h3>Spacecraft</h3>
             <p>Advanced spacecraft and their role in interstellar missions.</p>
         </div>
 
         <div class="card" onclick="location.href='ai-space.html'">
-            <img src="image/ai-space.jpg" alt="AI in Space Image">
+            <img src="../images/photos/ai-space.jpg" alt="AI in Space Image">
             <h3>AI in Space</h3>
             <p>The role of artificial intelligence in space exploration.</p>
         </div>
