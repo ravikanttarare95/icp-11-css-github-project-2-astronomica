@@ -25,7 +25,7 @@ a {
   font-size: 3rem;
 }
 
-.universe-intro{
+.universe-intro {
   padding: 20px;
   text-align: justify;
 }
@@ -38,6 +38,12 @@ a {
   display: flex;
   justify-content: center;
   padding: 20px;
+}
+
+@media (min-width: 769px) and (max-width: 1129px) {
+  .universe-theory-container {
+    top: 105px;
+  }
 }
 
 .universe-theory {
