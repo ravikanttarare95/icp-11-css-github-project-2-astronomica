@@ -4,6 +4,10 @@
   font-family: "Rosario", sans-serif;
 }
 
+body {
+  -webkit-text-size-adjust: 100%;
+}
+
 .mx-5 {
   margin: 0 5px;
 }
